@@ -48,7 +48,9 @@ if (process.env.NODE_ENV === "production") {
     )
   );
 }
-
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 connectToMongoose()
   .then(() => {
     app.listen(process.env.PORT || 5000, () => {
