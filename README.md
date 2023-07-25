@@ -1,4 +1,4 @@
-<h1 id="title" align="center">Sprints-MERN-E-Banking-System</h1>
+<h1 id="title" align="center">MERN-E-Banking-System</h1>
 
 <p align="center"><img src="https://socialify.git.ci/mostafakamal22/Sprints-MERN-E-Banking-System/image?font=Bitter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://ebank-2t3r.onrender.com](https://ebank-2t3r.onrender.com)
+
 
 <h2>Project Screenshots:</h2>
 
