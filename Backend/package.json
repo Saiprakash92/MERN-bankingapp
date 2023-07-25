@@ -1,14 +1,14 @@
 {
-  "name": "sprints-mern-e-banking-system",
+  "name": "Arogya-Bank",
   "version": "1.0.0",
   "description": "",
-  "main": "Backend/server.js",
+  "main": "Backend/index.js",
   "scripts": {
     "both": "concurrently \"npm:dev\" \"npm:dev2\"",
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "dev2": "cd Frontend && npm run dev",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Frontend && npm run build --prefix Frontend"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev2": "cd Frontend && npm run dev"
+   
   },
   "keywords": [],
   "author": "",
