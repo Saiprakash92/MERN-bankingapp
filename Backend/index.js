@@ -14,7 +14,7 @@ app.use(express.json());
 
 //cors middleware
 const { corsProOptions } = require("./config/corsConfig");
-app.use(cors(corsProOptions));
+app.use(cors());
 
 // Apply the rate limiting middleware to API calls only
 const {
