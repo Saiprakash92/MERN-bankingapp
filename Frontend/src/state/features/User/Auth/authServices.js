@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL ="https://mern-bankingapp-ebqh.vercel.app/api/users"
+const API_URL ="https://mern-bankingapp-ebqh.vercel.app/api/users/"
   // process.env.NODE_ENV === "production"
   //   ? "https://ebank-2t3r.onrender.com/api/users/"
   //   : "http://localhost:5000/api/users/";

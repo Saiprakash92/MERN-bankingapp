@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const API_URL =
-  process.env.NODE_ENV === "production"
-    ? "https://ebank-2t3r.onrender.com/api/account/"
-    : "http://localhost:5000/api/account/";
+const API_URL ="https://mern-bankingapp-ebqh.vercel.app/api/account"
+  // process.env.NODE_ENV === "production"
+  //   ? "https://ebank-2t3r.onrender.com/api/account/"
+  //   : "http://localhost:5000/api/account/";
 
 //Get Account
 const getAccount = async (payload) => {

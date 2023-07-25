@@ -2,12 +2,12 @@ import axios from "axios";
 
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://ebank-2t3r.onrender.com/api/request/"
+    ? "https://mern-bankingapp-ebqh.vercel.app/api/request/"
     : "http://localhost:5000/api/request/";
 
 const CREATE_ACCOUNT_API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://ebank-2t3r.onrender.com/api/account/create"
+    ? "https://mern-bankingapp-ebqh.vercel.app/account/create"
     : "http://localhost:5000/api/account/create";
 
 //Get All Account Requests
