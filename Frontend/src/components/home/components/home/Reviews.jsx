@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import robertPhoto from "../../../../assets/imgs/robert-brown.png";
+import Photo from "../../../../assets/imgs/photo.jpg";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 export default function Reviews() {
@@ -114,10 +114,10 @@ export default function Reviews() {
                   </svg>
                   <img
                     className="relative rounded-full"
-                    src={robertPhoto}
-                    width="96"
-                    height="96"
-                    alt="Robert Brown"
+                    src={Photo}
+                    width="80"
+                    height="60"
+                    alt="Prakash singh"
                   />
                 </div>
 
@@ -139,12 +139,12 @@ export default function Reviews() {
                   </span>{" "}
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
-                  Robert Brown
+                  Prakash singh
                 </cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
-                    @FakeCO
+                  <span>Student</span>{" "}
+                  <a className="text-blue-600 hover:underline" href="https://www.nita.ac.in/">
+                    NIT-AGARTALA
                   </a>
                 </div>
               </div>
