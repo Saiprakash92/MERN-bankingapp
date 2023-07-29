@@ -1,13 +1,13 @@
 {
   "name": "Arogya-Bank",
-  "version": "1.0.0",
+  "version": "2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "both": "concurrently \"npm:dev\" \"npm:dev2\"",
+   
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "dev2": "cd Frontend && npm run dev"
+    "dev": "nodemon index.js"
+   
    
   },
   "keywords": [],
